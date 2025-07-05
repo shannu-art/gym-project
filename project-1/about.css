@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+nav ul button{
+    background-color: rgb(168, 164, 164);
+    border-radius: 5px;
+    size: 80px;
+    width: 80px;
+    height: 25px;
+}
+button a{
+    color: black;
+    font-weight: bold;
+}
+button a:hover{
+    color: red;
+    
+}
+header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* width: 20%;  */  /* not to use this property in the ul it will make the navabar disappear. */
+    margin-right:30px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: black;
+    /* transition: all 2s ease-in-out; */
+}
+
+nav ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+nav ul li a.active{
+    color: red;
+    text-decoration: underline;   
+}
+
+.box {
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+.box input {
+    border: none;
+    outline: none;
+    width: 400px;
+    /* border: 1px solid black; */
+    padding: 2px;
+    font-size: 1rem;
+    padding-left: 8px;
+}
+
+#sIcon {
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.linebreak{
+    width: 100vw;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.section{
+    width: 100%;
+    height: 40vh;
+}
+
+.container{
+    width: 100%;
+    
+    padding-top: 50px;
+}
+
+
+.content-section .child-1{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-left: 20px;
+    text-align: center;
+}
+.content-section .child-2 h3{
+    margin-top: 28px;
+    color: #a39f9f;
+    font-size: 28px;
+    margin-left: 28px;
+
+}
+.content-section .child-2 p{
+    margin-left: 40px;
+    margin-right: 45%;
+    margin-top: 1px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .child-2 .child-3{
+    margin-top: 30px;
+    
+}
+.content-section .child-2 .child-3 a{
+    margin-left: 30px;
+    background-color: #a5a1a1;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .child-2 .child-3 a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img {
+    /* float: right; */
+    width: auto;
+    height: 400px;
+    margin-right: 120px;
+}
+
+/* ------------------------------------------------------------------------ */
+.wrapper {
+    clear: both;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#footer {
+    margin-top: 50vh;
+    clear: both;
+    height: 100vh;
+    background-image: url(images/footer2.jpg),linear-gradient(to right,#baba,rgb(56, 54, 54));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 5rem 0;
+    overflow: hidden;
+    
+}
+
+#box-heading {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 0.895rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+
+}
+
+.boxfooter {
+    width: 32%;
+    height: 48vh;
+    /* border: 2px solid white; */
+}
+
+.color{
+    color: #ffffff;
+}
+
+.col1 ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 35vh;
+}
+
+.col1 ul li{
+    line-height: 1.25rem;
+    width: 40%;
+}
+
+#topfooter {
+    display: flex;
+    justify-content: space-between;
+    gap: px 0;
+}
+
+input[type="email"]{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 0.767);
+    height: 30px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 30px 0 50px;
+}
+
+.subscribe {
+    width: 100%;
+    border-radius: 40px;
+    padding: 0.4rem;
+    background-color: yellow;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.line {
+    width: 1005;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#middle {
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    padding: 0.6rem 0;
+}
+
+#bottom div{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.trans{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
